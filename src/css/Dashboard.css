@@ -1,0 +1,39 @@
+/* Container for the entire dashboard */
+.dashboard-container {
+    height: 100vh; /* Viewport height for full screen */
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #f4f4f4;
+    overflow-y: hidden; /* Disable scroll on the container */
+  }
+  
+  /* Content area that will scroll */
+  .dashboard-content {
+    flex: 1;
+    overflow-y: auto; /* Enable vertical scrolling */
+    padding-right: 10px; /* Add padding for scrollbar */
+  }
+  
+  /* Each section of the dashboard */
+  .dashboard-section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  h2 {
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    color: #777;
+  }
+  
